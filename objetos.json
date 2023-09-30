@@ -3,45 +3,30 @@
       {
         "nombre": "Espada del Rey Arruinado",
         "imagen_url": "./img/objetos/espada-del-rey-arruinado.jpg",
-        "descripcion": "Un arma legendaria imbuida de poder oscuro que aumenta significativamente la fuerza del campeón y su capacidad de vida lifesteal.",
         "precio": 3300,
         "historia": "La Espada del Rey Arruinado es una reliquia antigua que solía pertenecer a un monarca caído en desgracia. Se dice que el arma está maldita y consume la vida de aquellos que la empuñan, pero otorga un poder inigualable.",
-        "atributos": {
-          "Daño de Ataque": 60,
-          "Robo de vida": 12
-        }
+        "atributos": "Aumenta el daño de ataque y robo de vida"
       },
       {
         "nombre": "Sombrero Mortal de Rabadon",
         "imagen_url": "./img/objetos/sombrero-mortal-de-rabadon.jpg",
-        "descripcion": "Un sombrero mágico que amplifica de manera significativa el poder mágico del campeón.",
         "precio": 3600,
         "historia": "El Sombrero Mortal de Rabadon es un antiguo artefacto mágico creado por el legendario mago Rabadon. Se dice que canaliza el poder de las estrellas para aumentar la capacidad mágica del usuario a niveles astronómicos.",
-        "atributos": {
-          "Poder de Habilidad": 120
-        }
+        "atributos": "Aumenta el poder de habilidad"
       },
       {
         "nombre": "Guardián de la Naturaleza",
         "imagen_url": "./img/objetos/guardian-de-la-naturaleza.jpg",
-        "descripcion": "Una armadura celestial que otorga al campeón una gran resistencia y regeneración de vida.",
         "precio": 2800,
         "historia": "El Guardián de la Naturaleza es una armadura forjada por los espíritus de la naturaleza para proteger a aquellos que luchan en su nombre. Sus placas resplandecen con la energía de la vida misma.",
-        "atributos": {
-          "Armadura": 70,
-          "Resistencia Mágica": 45
-        }
+        "atributos": "Aumenta la armadura y la resistencia mágica"
       },
       {
         "nombre": "Cetro de Cristal de Rylai",
         "imagen_url": "./img/objetos/cetro-de-cristal-de-rylai.jpg",
-        "descripcion": "Un cetro mágico que inflige daño y ralentiza a los enemigos alcanzados por las habilidades del campeón.",
         "precio": 2600,
         "historia": "El Cetro de Cristal de Rylai es una reliquia de hielo antigua imbuida de magia gélida. Cualquier enemigo que sea tocado por las habilidades del usuario siente el frío helado de su poder.",
-        "atributos": {
-          "Poder de Habilidad": 90,
-          "Salud": 300
-        }
+        "atributos": "Aumenta el poder de habilidad y la salud"
       }
     ]
   }
