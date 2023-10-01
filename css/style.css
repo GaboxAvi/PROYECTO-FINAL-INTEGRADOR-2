@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --primary-color: #1A4F73;
+    --secondary-color: #FFD700;
+    --details-color: #E5E5E5;
+    --sumplement-color: #5ACD5A;
+    --black-color: #000000;
+    --background-color: #FFFFFF;
+}
+
+header{
+    margin: 5px;
+    padding: 15px;
+}
+
+.logo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 40%;
+    padding-bottom: 20px;
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.welcome{
+    text-align: center;
+    padding: 12px;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+.welcome h2, .welcome h3{
+    padding: 13px;
+}
+
+.welcome h2{
+    padding-top: 20px;
+}
+
+.info-runaterra {
+    text-align: center;
+    padding: 14px;
+}
+
+.info-runaterra h2, .info-runaterra p{
+    padding-bottom: 20px;
+}
+
+.info-map-runaterra{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.info-map-runaterra p{
+    text-align: left;
+    padding: 8px;
+}
+
+.info-map-runaterra img{
+    margin: 0 auto;
+    max-width: 90%;
+}

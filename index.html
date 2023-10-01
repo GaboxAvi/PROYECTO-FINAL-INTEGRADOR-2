@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>League of Legends</title>
+    <title>Glosario League of Legends</title>
 </head>
 <body>
     <header>
         <nav>
-            <div>
+            <div class="logo">
                 <a href="index.html">
-                    <img src="" alt="League of Legends">
+                    <img src="./img/logo.png" alt="Glosario League of Legends">
                 </a>
             </div>
 
             <section>
-                <ul>
+                <ul class="nav-bar">
                     <li><a href="">Mundo de Runaterra</a></li>
                     <li><a href="">Campeones</a></li>
                     <li><a href="">Objetos</a></li>
@@ -26,32 +29,39 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h2>¡Bienvenido al universo de League of Legends!</h2>
+        <section class="welcome">
             <div>
-                <a href="">Descargar</a>
+                <h1>¡Bienvenido a League of Legends!</h1>
+                <a href="https://signup.leagueoflegends.com/es-ar/signup/redownload?page_referrer=index">Descargar</a>
             </div>
+        
+            <h2>¿No tienes ni idea de como introducirte en este universo?</h2>
+            <h3>¡Esta fanpage busca dar una pequeña introducción al respecto!</h3>
+        </section>
 
+        <section class="info-runaterra">
+            <div>
+                <h2>Sobre el mundo de Runaterra</h2>
+                <p>Runeterra es el mundo ficticio del que vienen la mayoría de nuestros campeones favoritos de League of Legends. Consiste de un plano físico así como un plano espiritual. Dentro de Runeterra, hay múltiples regiones, las cuales luchan entre ellas o intentan vivir en paz. También hay áreas de Runeterra que no aparecen en el mapa, como Ciudad de Bandle, que es de donde vienen los Yordles. Viven en un plano mágico y usan portales para entrar y salir del mundo físico siempre que quieran.</p>
+                <p>¡Runeterra es un mundo completo, con varios continentes, regiones y ciudades!</p>
+            </div>
+            <div class="info-map-runaterra">
+                <article>
+                    <p>Existen trece regiones conocidas alrededor de Runeterra. La mayoria de las regiones están o en Valoran o Shurima, los dos continentes principales de Runeterra. También hay múltiples islas en las que habitan nuestros campeones favoritos de LoL.</p>
+                    <p>El continente del norte se llama Valoran, mientras que el del sur se llama Shurima. Los dos continentes están conectados por un puente artificial, mientras que al este de lo dos continentes están las Islas de la Sombra, Ionia y Aguas Estancadas.</p>
+                    <p>Regiones de Valoran: Freljord, DemaciaNoxus, Piltover & Zaun.</p>
+                    <p>Regiones de Shurima: Shurima, Targon, Ixtal.</p>
+                    <p>Otras Regiones: Ionia, Aguas Estancadas, Islas de la Sombra, Ciudad de Bandle, El Vacío.</p>
+                </article>
+                <article>
+                    <img src="./img/info-runaterra-map.jpg" alt="Regiones de Runaterra">
+                </article>
+            </div>
         </section>
 
         <section>
             <div>
-                <h3>Sobre el mundo de Runaterra</h3>
-                <hr>
-            </div>
-
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quasi sed saepe. Doloremque voluptates minima officia. Voluptates quas ipsa minus quibusdam error? Itaque distinctio sapiente ea quae hic ullam explicabo?
-                Asperiores corporis, saepe quae eius voluptatibus aspernatur ratione, rerum delectus vero nesciunt deserunt soluta, illo accusamus. Recusandae dignissimos nostrum voluptate beatae pariatur eius sunt, voluptatem magnam iure, quos eum sed?
-                Nulla, doloribus? Laborum incidunt, ullam, id sit, rem itaque quo inventore facere nam veniam vitae aliquid reiciendis esse repellendus eos officiis porro nostrum blanditiis sed ratione quidem doloremque. Unde, eos?
-                Magni et quibusdam enim in ut quam sequi tempora, distinctio inventore ab quo fugit deleniti aperiam debitis sed quod vitae eligendi natus hic adipisci aspernatur optio quisquam? Reprehenderit, molestias nobis!
-                Quasi, eligendi harum! Consequuntur soluta rem veritatis hic accusamus dolore repudiandae nulla fugit dolor delectus suscipit ea, ullam expedita doloribus deleniti ab vel sunt voluptate dignissimos architecto laudantium eaque sed.</p>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h3>¡Nuestros grandes Campeones!</h3>
+                <h2>¡Nuestros grandes Campeones!</h2>
             </div>
             
             <div id="campeones-list">
@@ -61,7 +71,7 @@
 
         <section>
             <div>
-                <h3>¡Hay objetos interesantes!</h3>
+                <h2>¡Hay objetos interesantes!</h2>
             </div>
 
             <div id="objetos-list">
@@ -72,7 +82,7 @@
     <footer>
         <section>
             <div>
-                <h3>Redes Sociales</h3>
+                <h2>Redes Sociales</h2>
             </div>
             <div>
                 <a href="">
@@ -94,7 +104,7 @@
         </section>
         <section>
             <div>
-                <h3>Otros universos</h3>
+                <h2>Otros universos</h2>
             </div>
             <div>
                 <a href="">
@@ -113,6 +123,9 @@
                     <img src="" alt="">
                 </a>
             </div>
+        </section>
+        <section>
+            <p>Glosario de League of Legends es una página hecha por y para fanes, sin fines de lucro. Página realizada por Gabriel José Herrera Ávila.</p>
         </section>
     </footer>
     <script src="./js/campeonObjeto.js"></script>

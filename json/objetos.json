@@ -3,7 +3,7 @@
       {
         "id": 1001,
         "nombre": "Espada del Rey Arruinado",
-        "imagen_url": "./img/objetos/espada-del-rey-arruinado.jpg",
+        "imagen": "./img/objetos/espada-del-rey-arruinado.jpg",
         "precio": 3300,
         "historia": "La Espada del Rey Arruinado es una reliquia antigua que solía pertenecer a un monarca caído en desgracia. Se dice que el arma está maldita y consume la vida de aquellos que la empuñan, pero otorga un poder inigualable.",
         "atributos": "Aumenta el daño de ataque y robo de vida"
@@ -11,7 +11,7 @@
       {
         "id": 1002,
         "nombre": "Sombrero Mortal de Rabadon",
-        "imagen_url": "./img/objetos/sombrero-mortal-de-rabadon.jpg",
+        "imagen": "./img/objetos/sombrero-mortal-de-rabadon.jpg",
         "precio": 3600,
         "historia": "El Sombrero Mortal de Rabadon es un antiguo artefacto mágico creado por el legendario mago Rabadon. Se dice que canaliza el poder de las estrellas para aumentar la capacidad mágica del usuario a niveles astronómicos.",
         "atributos": "Aumenta el poder de habilidad"
@@ -19,7 +19,7 @@
       {
         "id": 1003,
         "nombre": "Guardián de la Naturaleza",
-        "imagen_url": "./img/objetos/guardian-de-la-naturaleza.jpg",
+        "imagen": "./img/objetos/guardian-de-la-naturaleza.jpg",
         "precio": 2800,
         "historia": "El Guardián de la Naturaleza es una armadura forjada por los espíritus de la naturaleza para proteger a aquellos que luchan en su nombre. Sus placas resplandecen con la energía de la vida misma.",
         "atributos": "Aumenta la armadura y la resistencia mágica"
@@ -27,7 +27,7 @@
       {
         "id": 1004,
         "nombre": "Cetro de Cristal de Rylai",
-        "imagen_url": "./img/objetos/cetro-de-cristal-de-rylai.jpg",
+        "imagen": "./img/objetos/cetro-de-cristal-de-rylai.jpg",
         "precio": 2600,
         "historia": "El Cetro de Cristal de Rylai es una reliquia de hielo antigua imbuida de magia gélida. Cualquier enemigo que sea tocado por las habilidades del usuario siente el frío helado de su poder.",
         "atributos": "Aumenta el poder de habilidad y la salud"
