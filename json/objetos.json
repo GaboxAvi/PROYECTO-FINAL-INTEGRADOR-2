@@ -1,6 +1,7 @@
 {
     "objetos": [
       {
+        "id": 1001,
         "nombre": "Espada del Rey Arruinado",
         "imagen_url": "./img/objetos/espada-del-rey-arruinado.jpg",
         "precio": 3300,
@@ -8,6 +9,7 @@
         "atributos": "Aumenta el daño de ataque y robo de vida"
       },
       {
+        "id": 1002,
         "nombre": "Sombrero Mortal de Rabadon",
         "imagen_url": "./img/objetos/sombrero-mortal-de-rabadon.jpg",
         "precio": 3600,
@@ -15,6 +17,7 @@
         "atributos": "Aumenta el poder de habilidad"
       },
       {
+        "id": 1003,
         "nombre": "Guardián de la Naturaleza",
         "imagen_url": "./img/objetos/guardian-de-la-naturaleza.jpg",
         "precio": 2800,
@@ -22,6 +25,7 @@
         "atributos": "Aumenta la armadura y la resistencia mágica"
       },
       {
+        "id": 1004,
         "nombre": "Cetro de Cristal de Rylai",
         "imagen_url": "./img/objetos/cetro-de-cristal-de-rylai.jpg",
         "precio": 2600,
