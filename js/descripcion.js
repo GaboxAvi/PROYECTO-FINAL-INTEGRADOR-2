@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 <h2>${selectCampeon.apodo}</h2>
     
                 <img src="${selectCampeon.imagen}" alt="${selectCampeon.nombre}">
-                <hr>
+                <br>
+                <br>  
                 <p><strong>Rol: </strong>${selectCampeon.rol}</p>
                 <p><strong>Daño: </strong>${selectCampeon.daño}</p>
 
@@ -32,9 +33,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const htmlContentObjeto = `
             <div class="objeto-card">
                 <img src="${selectObjeto.imagen}" alt="${selectObjeto.nombre}">
-                <hr>
+                <br>
+                <br>
                 <h1>${selectObjeto.nombre}</h1>
-                <h3>Precio: ${selectObjeto.precio}</h3>
+                <h3>${selectObjeto.precio}</h3>
         
                 <p><strong>Atributos: </strong>${selectObjeto.atributos}</p>
                 

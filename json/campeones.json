@@ -5,8 +5,8 @@
         "nombre": "Ezreal",
         "apodo": "El Explorador Prodigioso",
         "imagen": "./img/campeones/ezreal.jpg",
-        "daño": "híbrido",
-        "rol": "tirador",
+        "daño": "Híbrido",
+        "rol": "Tirador",
         "historia": "Ezreal es un aventurero y explorador apasionado que se embarca en misiones en busca de tesoros y artefactos antiguos. Posee un guante mágico que le otorga poderes arcana y un sentido aventurero inquebrantable."
       },
       {
@@ -14,8 +14,8 @@
         "nombre": "Ahri",
         "apodo": "El Zorro de las Nueve Colas",
         "imagen": "./img/campeones/ahri.jpg",
-        "daño": "mágico",
-        "rol": "asasina",
+        "daño": "Mágico",
+        "rol": "Asesino",
         "historia": "Ahri es una criatura mágica que se alimenta de las almas de los seres vivos. Con el tiempo, ha desarrollado emociones humanas y busca una manera de convertirse en humana de nuevo."
       },
       {
@@ -23,8 +23,8 @@
         "nombre": "Darius",
         "apodo": "El Señor de la Guerra",
         "imagen": "./img/campeones/darius.jpg",
-        "daño": "físico",
-        "rol": "tanque",
+        "daño": "Físico",
+        "rol": "Luchador",
         "historia": "Darius es un poderoso guerrero de Noxus que lucha en la primera línea de batalla. Su lema es la fuerza bruta y la lealtad inquebrantable a su nación."
       },
       {
@@ -32,8 +32,8 @@
         "nombre": "Jinx",
         "apodo": "La Niña Loca",
         "imagen": "./img/campeones/jinx.jpg",
-        "daño": "físico",
-        "rol": "tirador",
+        "daño": "Físico",
+        "rol": "Tirador",
         "historia": "Jinx es una maníaca que ama causar el caos y la destrucción. Sus explosivos y su actitud impredecible la convierten en una amenaza para todos."
       },
       {
@@ -41,8 +41,8 @@
         "nombre": "Leona",
         "apodo": "La Portadora del Sol",
         "imagen": "./img/campeones/leona.jpg",
-        "daño": "mágico",
-        "rol": "soporte",
+        "daño": "Mágico",
+        "rol": "Soporte",
         "historia": "Leona es una paladín imbuida con el poder del sol. Lucha por la justicia y la luz, defendiendo a los débiles y castigando a los malvados."
       },
       {
@@ -50,8 +50,8 @@
         "nombre": "Zed",
         "apodo": "El Maestro de las Sombras",
         "imagen": "./img/campeones/zed.jpg",
-        "daño": "físico",
-        "rol": "asesino",
+        "daño": "Físico",
+        "rol": "Asesino",
         "historia": "Zed es un maestro de las sombras que busca venganza contra su antiguo maestro. Ha aprendido a controlar el poder de las tinieblas para convertirse en un asesino imparable."
       },
       {
@@ -59,8 +59,8 @@
         "nombre": "Soraka",
         "apodo": "La Sanadora Celestial",
         "imagen": "./img/campeones/soraka.jpg",
-        "daño": "mágico",
-        "rol": "soporte",
+        "daño": "Mágico",
+        "rol": "Soporte",
         "historia": "Soraka es una sanadora celestial que ha sacrificado su inmortalidad para ayudar a los mortales. Sus poderes curativos son incomparables."
       },
       {
@@ -68,8 +68,8 @@
         "nombre": "Garen",
         "apodo": "El Poder de Demacia",
         "imagen": "./img/campeones/garen.jpg",
-        "daño": "físico",
-        "rol": "tanque",
+        "daño": "Físico",
+        "rol": "Luchador",
         "historia": "Garen es un valiente caballero de Demacia. Defiende la justicia y lucha con honor en el campo de batalla."
       },
       {
@@ -77,8 +77,8 @@
         "nombre": "Corki",
         "apodo": "El As del Cielo",
         "imagen": "./img/campeones/corki.jpg",
-        "daño": "híbrido",
-        "rol": "tirador",
+        "daño": "Híbrido",
+        "rol": "Tirador",
         "historia": "Corki es un audaz piloto de aeronaves que lucha en el frente con su aeronave personal. Es conocido por su ingenio y coraje en combate."
       },
       {
@@ -86,8 +86,8 @@
         "nombre": "Thresh",
         "apodo": "El Recolector de Almas",
         "imagen": "./img/campeones/thresh.jpg",
-        "daño": "mágico",
-        "rol": "soporte",
+        "daño": "Mágico",
+        "rol": "Soporte",
         "historia": "Thresh es un atormentador de almas que recoge las almas de los condenados en su linterna. Su sadismo y su pasión por el sufrimiento lo convierten en un terrorífico adversario."
       }
     ]

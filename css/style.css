@@ -144,7 +144,7 @@ h1 {
 
 #title-campeones,
 #title-objetos {
-  padding-top: 4rem;
+  margin: 5rem 0 3rem 0;
   color: var(--secondary-color);
   padding-bottom: 0;
 }
@@ -159,6 +159,7 @@ h1 {
 .objetos-content h2 {
   padding-top: 1rem;
   padding-bottom: 2rem;
+  color: #FFA500;
 }
 
 .campeon-card,
@@ -261,6 +262,7 @@ footer section:last-child {
     flex: 0 0 35%;
     height: auto;
     box-sizing: border-box;
+    margin: 1rem;
   }
 
   #footer {

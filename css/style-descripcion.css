@@ -57,9 +57,22 @@ nav {
 }
 
 /* CARTAS DE DESCRIPCION */
+
+main{
+    background-color: var(--black-color);
+    padding: 4rem;
+}
+
 .campeon-card,
 .objeto-card {
   text-align: center;
+  padding: 2rem;
+  background-color: var(--card-color);
+  color: var(--gray-color);
+}
+
+.campeon-card img, .objeto-card img{
+    max-width: 100%;
 }
 
 .campeon-card *,
@@ -73,6 +86,15 @@ nav {
   font-size: 3rem;
 }
 
+.campeon-card h2, .campeon-card strong, .objeto-card h3, .objeto-card strong{
+    color: var(--secondary-color);
+}
+
+.objeto-card h1{
+    color: #FFA500;
+}
+
+
 .campeon-card p,
 .objeto-card p {
   font-size: 1.2rem;
@@ -83,7 +105,13 @@ nav {
 .objeto-card button {
   margin-top: 50px;
   font-size: 1.2rem;
+  color: var(--white-color);
+  border: 0;
+  border-radius: 10%;
+  background-color: var(--primary-color);
 }
+
+
 
 /* FOOTER */
 footer {
@@ -158,4 +186,20 @@ footer section:last-child {
     max-width: 80%;
     border-radius: 12%;
   }
+
+  #campeon-descripcion, #objeto-descripcion {
+    width: 60%;
+    max-width: none; 
+    margin: 0 auto; 
+    padding: 2rem;
+    text-align: center;
+}
+
+.campeon-card, .objeto-card {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
