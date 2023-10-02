@@ -1,212 +1,291 @@
-*{
-    box-sizing: border-box;
-    font-family: 'League Spartan', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
+* {
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
-:root{
-    --primary-color: #1A4F73;
-    --secondary-color: #FFD700;
-    --details-color: #E5E5E5;
-    --sumplement-color: #5ACD5A;
-    --black-color: #000000;
-    --background-color: #FFFFFF;
+:root {
+  --primary-color: #1a4f73;
+  --secondary-color: #ffd700;
+  --gray-color: #e5e5e5;
+  --card-color: #1a1a1d;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --footer-color: #003333;
+}
+
+footer section:last-child p{
+    word-spacing: 0;
+}
+p {
+  word-spacing: 4px;
 }
 
 
-p{
-    word-spacing: 4px;
-}
-p, li, a{
-    font-size: 1.2rem;
+p,
+li,
+a {
+  font-size: 1.3rem;
 }
 
 /* HEADER*/
-nav{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
 
+header {
+  background-color: var(--primary-color);
+}
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .logo {
-    text-align: center; 
-    height: auto;
-    max-width: 15%;
+  text-align: center;
+  height: auto;
+  max-width: 15%;
 }
 
 .logo img {
-    max-width: 100%; 
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-
-
-
-.nav-bar{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2rem;
-    justify-content: space-around;
-    list-style: none;
-    padding: 10px;
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px;
 }
 
+.nav-bar a {
+  color: var(--secondary-color);
+}
 
 /* main */
-.welcome{
-    text-align: center;
-    padding: 12px;
+.welcome {
+  text-align: center;
+  padding: 12px;
+  background-image: url(/img/background-3.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40rem;
+  color: var(--white-color);
 }
 
-h1{
-    padding-bottom: 1.2rem;
+.welcome h1 {
+  color: var(--secondary-color);
+  padding-bottom: 2rem;
 }
 
-.welcome h2, .welcome h3{
-    padding: 13px;
+.welcome a {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 10%;
+}
+h1 {
+  padding-bottom: 1.2rem;
 }
 
-.welcome h2{
-    padding-top: 1.7rem;
+.welcome h2,
+.welcome h3 {
+  padding: 13px;
+  padding-top: 5rem;
 }
-
-
-
 
 .info-runaterra {
-    text-align: center;
-    padding: 14px;
+  text-align: center;
+  padding: 14px;
+  background-color: var(--black-color);
+  color: var(--gray-color);
 }
 
-.info-runaterra h2, .info-runaterra p{
-    padding-bottom: 20px;
+.info-runaterra h2,
+.info-runaterra p {
+  padding-bottom: 20px;
 }
 
-.info-map-runaterra{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+.info-runaterra h2 {
+  color: var(--secondary-color);
 }
 
-.info-map-runaterra p{
-    text-align: left;
-    padding: 8px;
+.info-map-runaterra {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-.info-map-runaterra img{
-    margin: 0 auto;
-    max-width: 100%;
+.info-map-runaterra p {
+  text-align: left;
+  padding: 8px;
 }
 
-
-
-
-.campeon-content, .objetos-content{
-    text-align: center;
-    padding: 5px;
+.info-map-runaterra img {
+  margin: 0 auto;
+  max-width: 100%;
 }
 
-#title-campeones, #title-objetos{
-    padding-top: 2rem;
+.campeon-content,
+.objetos-content {
+  text-align: center;
+  padding: 5px;
 }
 
-.campeon-content h2, .objetos-content h2{
-    padding-bottom: 2rem;
+#title-campeones,
+#title-objetos {
+  padding-top: 4rem;
+  color: var(--secondary-color);
+  padding-bottom: 0;
 }
 
-.campeon-card, .objeto-card{
-    padding-bottom: 3rem;
+#campeones,
+#objetos {
+  background-color: var(--black-color);
+  color: var(--gray-color);
 }
 
-.campeon-card img, .objeto-card img{
-    padding-bottom: 1.3rem;
+.campeon-content h2,
+.objetos-content h2 {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
-.campeon-card h2, .objeto-card h2{
-    padding-bottom: 1rem;
+.campeon-card,
+.objeto-card {
+  padding-bottom: 3rem;
+  background-color: var(--card-color);
+  margin: 3rem;
 }
 
-
-
-
-footer h2{
-    text-align: center;
+.campeon-card a,
+.objeto-card a {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  color: var(--white-color);
+  border-radius: 10%;
 }
 
-.oficial-sites, .other-universe{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 2rem;
+.campeon-card img,
+.objeto-card img {
+  padding: 1rem;
+  max-width: 60%;
 }
 
-.oficial-sites img, .other-universe img{
-    max-width: 100%; 
-    height: auto; 
-    padding-bottom: 20px;
-    padding: 1rem;
+.campeon-card img,
+.objeto-card img {
+  padding-bottom: 1.3rem;
 }
 
-.other-universe img{
-    max-width: 100%; 
-    height: auto; 
-    padding-bottom: 20px;
-    padding: 1rem;
+footer {
+  background-color: var(--footer-color);
+  color: var(--white-color);
+  padding-top: 1rem;
 }
 
-footer section:last-child{
-    text-align: center;
-    padding: 1.1rem;
+footer h2 {
+  padding-top: 1rem;
+  text-align: center;
 }
 
+.oficial-sites,
+.other-universe {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 6rem;
+}
 
+.oficial-sites img,
+.other-universe img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  padding: 1rem;
+}
 
+.other-universe img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  padding: 1rem;
+}
+
+footer section:last-child {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
 
 @media (min-width: 768px) {
-    
-    .logo {
-        max-width: 6%;
-        margin-right: 5rem;
-    }
-    
-    .info-map-runaterra {
-        display: flex;
-        
-    }
-    
-    .info-map-text {
-        flex: 1; 
-        text-align: left; 
-    }
-    
-    .info-map-image {
-        flex: 1; 
-        text-align: right; 
-    }
-    
-    #campeones-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    .campeon-card {
-        flex: 0 0 40%; 
-        height: auto;
-        padding: 1.4rem;
-        box-sizing: border-box; 
-    }
+  .logo {
+    max-width: 6%;
+    margin-right: 5rem;
+  }
 
-    .campeon-card img{
-        max-width: 60%;
-    }
-    
-    
-    
+  .info-map-runaterra {
+    display: flex;
+  }
+
+  .info-map-text {
+    flex: 1;
+    text-align: left;
+  }
+
+  .info-map-image {
+    flex: 1;
+    text-align: right;
+  }
+
+  #campeones-list,
+  #objetos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .campeon-card,
+  .objeto-card {
+    flex: 0 0 35%;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .oficial-sites,
+  .other-universe {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .oficial-sites a,
+  .other-universe a {
+    display: inline-block;
+    height: auto;
+    width: auto;
+  }
+
+  .other-universe img,
+  .oficial-sites img {
+    max-width: 80%;
+    border-radius: 12%;
+  }
 }

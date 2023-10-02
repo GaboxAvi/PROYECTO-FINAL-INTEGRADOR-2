@@ -1,118 +1,161 @@
-*{
-    box-sizing: border-box;
-    font-family: 'League Spartan', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
+* {
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
-:root{
-    --primary-color: #1A4F73;
-    --secondary-color: #FFD700;
-    --details-color: #E5E5E5;
-    --sumplement-color: #5ACD5A;
+:root {
+    --primary-color: #1a4f73;
+    --secondary-color: #ffd700;
+    --gray-color: #e5e5e5;
+    --card-color: #1a1a1d;
     --black-color: #000000;
-    --background-color: #FFFFFF;
-}
+    --white-color: #ffffff;
+    --footer-color: #003333;
+  }
 
-
+  p, li{
+    font-size: 1.3rem;
+  }
 /* HEADER */
 header {
-    margin: 5px;
-    padding: 15px;
+  background-color: var(--primary-color);
 }
-
-nav{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .logo {
-    text-align: center; 
-    height: auto;
-    max-width: 15%;
+  text-align: center;
+  height: auto;
+  max-width: 15%;
 }
 
 .logo img {
-    max-width: 100%; 
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-.nav-bar{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2rem;
-    justify-content: center;
-    list-style: none;
-    padding: 10px;
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px;
+}
+
+.nav-bar a {
+  color: var(--secondary-color);
 }
 
 /* CARTAS DE DESCRIPCION */
-.campeon-card, .objeto-card{
-    text-align: center;
+.campeon-card,
+.objeto-card {
+  text-align: center;
 }
 
-
-.campeon-card *, .objeto-card *{
-    padding: 0.8rem;
+.campeon-card *,
+.objeto-card * {
+  padding: 0.8rem;
 }
 
-
-.campeon-card h1, .campeon-card h2, .objeto-card h1{
-    font-size: 3rem;
+.campeon-card h1,
+.campeon-card h2,
+.objeto-card h1 {
+  font-size: 3rem;
 }
 
-.campeon-card p, .objeto-card p{
-    font-size: 1.2rem;
-    word-spacing: 3px;
+.campeon-card p,
+.objeto-card p {
+  font-size: 1.2rem;
+  word-spacing: 3px;
 }
 
-
-
-.campeon-card button, .objeto-card button{
-    margin-top: 50px;
-    font-size: 1.2rem;
+.campeon-card button,
+.objeto-card button {
+  margin-top: 50px;
+  font-size: 1.2rem;
 }
-
-
-
-
 
 /* FOOTER */
-footer h2{
-    text-align: center;
-    padding-top: 3rem;
+footer {
+  background-color: var(--footer-color);
+  color: var(--white-color);
+  padding-top: 1rem;
 }
 
+footer h2 {
+  padding-top: 1rem;
+  text-align: center;
+}
 
+.oficial-sites,
+.other-universe {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 6rem;
+}
 
-.oficial-sites, .other-universe{
+.oficial-sites img,
+.other-universe img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  padding: 1rem;
+}
+
+.other-universe img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  padding: 1rem;
+}
+
+footer section:last-child {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+@media (min-width: 768px) {
+  .logo {
+    max-width: 6%;
+    margin-right: 5rem;
+  }
+  #footer {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding: 2rem;
-}
+    align-items: center;
+  }
 
-.oficial-sites img, .other-universe img{
-    max-width: 100%; 
-    height: auto; 
-    padding-bottom: 20px;
-    padding: 1rem;
-}
+  .oficial-sites,
+  .other-universe {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
 
-.other-universe img{
-    max-width: 100%; 
-    height: auto; 
-    padding-bottom: 20px;
-    padding: 1rem;
-}
+  .oficial-sites a,
+  .other-universe a {
+    display: inline-block;
+    height: auto;
+    width: auto;
+  }
 
-footer section:last-child{
-    text-align: center;
-    padding: 1.1rem;
+  .other-universe img,
+  .oficial-sites img {
+    max-width: 80%;
+    border-radius: 12%;
+  }
 }
