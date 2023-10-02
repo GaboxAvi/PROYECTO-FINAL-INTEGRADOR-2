@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <br>
                 <br>
                 <h1>${selectObjeto.nombre}</h1>
-                <h3>${selectObjeto.precio}</h3>
+                <h3>🪙${selectObjeto.precio}</h3>
         
                 <p><strong>Atributos: </strong>${selectObjeto.atributos}</p>
                 
