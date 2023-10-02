@@ -16,37 +16,56 @@
     --background-color: #FFFFFF;
 }
 
-header{
-    margin: 5px;
-    padding: 15px;
+
+p{
+    word-spacing: 4px;
+}
+p, li, a{
+    font-size: 1.2rem;
 }
 
-.logo img{
+/* HEADER*/
+nav{
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    max-width: 40%;
-    padding-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
+
+.logo {
+    text-align: center; 
+    height: auto;
+    max-width: 15%;
+}
+
+.logo img {
+    max-width: 100%; 
+    height: auto;
+}
+
+
+
 
 .nav-bar{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2rem;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
     padding: 10px;
 }
 
+
+/* main */
 .welcome{
     text-align: center;
     padding: 12px;
 }
 
 h1{
-    padding-bottom: 20px;
+    padding-bottom: 1.2rem;
 }
 
 .welcome h2, .welcome h3{
@@ -54,8 +73,11 @@ h1{
 }
 
 .welcome h2{
-    padding-top: 20px;
+    padding-top: 1.7rem;
 }
+
+
+
 
 .info-runaterra {
     text-align: center;
@@ -79,5 +101,112 @@ h1{
 
 .info-map-runaterra img{
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 100%;
+}
+
+
+
+
+.campeon-content, .objetos-content{
+    text-align: center;
+    padding: 5px;
+}
+
+#title-campeones, #title-objetos{
+    padding-top: 2rem;
+}
+
+.campeon-content h2, .objetos-content h2{
+    padding-bottom: 2rem;
+}
+
+.campeon-card, .objeto-card{
+    padding-bottom: 3rem;
+}
+
+.campeon-card img, .objeto-card img{
+    padding-bottom: 1.3rem;
+}
+
+.campeon-card h2, .objeto-card h2{
+    padding-bottom: 1rem;
+}
+
+
+
+
+footer h2{
+    text-align: center;
+}
+
+.oficial-sites, .other-universe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.oficial-sites img, .other-universe img{
+    max-width: 100%; 
+    height: auto; 
+    padding-bottom: 20px;
+    padding: 1rem;
+}
+
+.other-universe img{
+    max-width: 100%; 
+    height: auto; 
+    padding-bottom: 20px;
+    padding: 1rem;
+}
+
+footer section:last-child{
+    text-align: center;
+    padding: 1.1rem;
+}
+
+
+
+
+@media (min-width: 768px) {
+    
+    .logo {
+        max-width: 6%;
+        margin-right: 5rem;
+    }
+    
+    .info-map-runaterra {
+        display: flex;
+        
+    }
+    
+    .info-map-text {
+        flex: 1; 
+        text-align: left; 
+    }
+    
+    .info-map-image {
+        flex: 1; 
+        text-align: right; 
+    }
+    
+    #campeones-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .campeon-card {
+        flex: 0 0 40%; 
+        height: auto;
+        padding: 1.4rem;
+        box-sizing: border-box; 
+    }
+
+    .campeon-card img{
+        max-width: 60%;
+    }
+    
+    
+    
 }

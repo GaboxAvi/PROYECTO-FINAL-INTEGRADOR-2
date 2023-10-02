@@ -14,16 +14,17 @@
         <nav>
             <div class="logo">
                 <a href="index.html">
-                    <img src="./img/logo.png" alt="Glosario League of Legends">
+                    <img src="./img/logos/logo-2.png" alt="Glosario League of Legends">
                 </a>
             </div>
 
             <section>
                 <ul class="nav-bar">
-                    <li><a href="">Mundo de Runaterra</a></li>
-                    <li><a href="">Campeones</a></li>
-                    <li><a href="">Objetos</a></li>
-                    <li><a href="">Otros universos</a></li>
+                    
+                    <li><a href="/index.html#info-runaterra">Mundo de Runaterra</a></li>
+                    <li><a href="/index.html#campeones">Campeones</a></li>
+                    <li><a href="/index.html#objetos">Objetos</a></li>
+                    <li><a href="/index.html#other-universe">Otros universos</a></li>
                 </ul>
             </section>
         </nav>
@@ -39,29 +40,30 @@
             <h3>¡Esta fanpage busca dar una pequeña introducción al respecto!</h3>
         </section>
 
-        <section class="info-runaterra">
+        <section class="info-runaterra" id="info-runaterra">
             <div>
                 <h2>Sobre el mundo de Runaterra</h2>
                 <p>Runeterra es el mundo ficticio del que vienen la mayoría de nuestros campeones favoritos de League of Legends. Consiste de un plano físico así como un plano espiritual. Dentro de Runeterra, hay múltiples regiones, las cuales luchan entre ellas o intentan vivir en paz. También hay áreas de Runeterra que no aparecen en el mapa, como Ciudad de Bandle, que es de donde vienen los Yordles. Viven en un plano mágico y usan portales para entrar y salir del mundo físico siempre que quieran.</p>
                 <p>¡Runeterra es un mundo completo, con varios continentes, regiones y ciudades!</p>
             </div>
-            <div class="info-map-runaterra">
-                <article>
+
+            <article class="info-map-runaterra">
+                <div class="info-map-text">
                     <p>Existen trece regiones conocidas alrededor de Runeterra. La mayoria de las regiones están o en Valoran o Shurima, los dos continentes principales de Runeterra. También hay múltiples islas en las que habitan nuestros campeones favoritos de LoL.</p>
                     <p>El continente del norte se llama Valoran, mientras que el del sur se llama Shurima. Los dos continentes están conectados por un puente artificial, mientras que al este de lo dos continentes están las Islas de la Sombra, Ionia y Aguas Estancadas.</p>
                     <p>Regiones de Valoran: Freljord, DemaciaNoxus, Piltover & Zaun.</p>
                     <p>Regiones de Shurima: Shurima, Targon, Ixtal.</p>
                     <p>Otras Regiones: Ionia, Aguas Estancadas, Islas de la Sombra, Ciudad de Bandle, El Vacío.</p>
-                </article>
-                <article>
+                </div>
+                <div class="info-map-image">
                     <img src="./img/info-runaterra-map.jpg" alt="Regiones de Runaterra">
-                </article>
-            </div>
+                </div>
+            </article>
         </section>
 
-        <section>
+        <section class="campeon-content" id="campeones">
             <div>
-                <h2>¡Nuestros grandes Campeones!</h2>
+                <h2 id="title-campeones">¡Nuestros grandes Campeones!</h2>
             </div>
             
             <div id="campeones-list">
@@ -69,9 +71,9 @@
             </div>
         </section>
 
-        <section>
+        <section class="objetos-content" id="objetos">
             <div>
-                <h2>¡Hay objetos interesantes!</h2>
+                <h2 id="title-objetos">¡Hay objetos interesantes!</h2>
             </div>
 
             <div id="objetos-list">
@@ -79,26 +81,17 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="other-universe">
         <section>
             <div>
-                <h2>Redes Sociales</h2>
+                <h2>Sitios oficiales</h2>
             </div>
-            <div>
-                <a href="">
-                    <i>
-
-                    </i>
+            <div class="oficial-sites">
+                <a href="https://www.leagueoflegends.com/es-mx/">
+                    <img src="./img/logos/lol-oficial-site.png" alt="">
                 </a>
-                <a href="">
-                    <i>
-
-                    </i>
-                </a>
-                <a href="">
-                    <i>
-
-                    </i>
+                <a href="https://www.riotgames.com/es">
+                    <img src="./img/logos/riot-games-oficial-site.png" alt="">
                 </a>
             </div>
         </section>
@@ -106,26 +99,26 @@
             <div>
                 <h2>Otros universos</h2>
             </div>
-            <div>
-                <a href="">
-                    <img src="" alt="">
+            <div class="other-universe">
+                <a href="https://playvalorant.com/es-mx/">
+                    <img src="./img/logos/valorant-site.jpg" alt="">
                 </a>
 
-                <a href="">
-                    <img src="" alt="">
+                <a href="https://teamfighttactics.leagueoflegends.com/es-es/">
+                    <img src="./img/logos/teamfight-tactics-site.jpg" alt="">
                 </a>
 
-                <a href="">
-                    <img src="" alt="">
+                <a href="https://playruneterra.com/es-es/">
+                    <img src="./img/logos/legends-runaterra-site.jpg" alt="">
                 </a>
 
-                <a href="">
-                    <img src="" alt="">
+                <a href="https://wildrift.leagueoflegends.com/es-es/">
+                    <img src="./img/logos/wild-rift-site.jpg" alt="">
                 </a>
             </div>
         </section>
         <section>
-            <p>Glosario de League of Legends es una página hecha por y para fanes, sin fines de lucro. Página realizada por Gabriel José Herrera Ávila.</p>
+            <p>Glosario League of Legends es una página hecha por y para fanes, sin fines de lucro. Página realizada por Gabriel José Herrera Ávila.</p>
         </section>
     </footer>
     <script src="./js/campeonObjeto.js"></script>

@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p><strong>Rol: </strong>${selectCampeon.rol}</p>
                 <p><strong>Daño: </strong>${selectCampeon.daño}</p>
 
-                <h3>Historia:</h3>
                 <p>${selectCampeon.historia}</p>
 
                 <button onclick="volverIndex()" class="volver-button">Volver Atrás</button>
@@ -31,16 +30,15 @@ document.addEventListener("DOMContentLoaded", function () {
     campeonDescripcion.innerHTML = htmlDescripcionCampeon;
   } else if (selectObjeto) {
     const htmlContentObjeto = `
-            <div class="campeon-card">
+            <div class="objeto-card">
                 <img src="${selectObjeto.imagen}" alt="${selectObjeto.nombre}">
                 <hr>
                 <h1>${selectObjeto.nombre}</h1>
-                <h3>${selectObjeto.precio}</h3>
+                <h3>Precio: ${selectObjeto.precio}</h3>
         
                 <p><strong>Atributos: </strong>${selectObjeto.atributos}</p>
                 
     
-                <h2>Historia:</h2>
                 <p>${selectObjeto.historia}</p>
     
                 <button onclick="volverIndex()" class="volver-button">Volver Atrás</button>

@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --primary-color: #1A4F73;
+    --secondary-color: #FFD700;
+    --details-color: #E5E5E5;
+    --sumplement-color: #5ACD5A;
+    --black-color: #000000;
+    --background-color: #FFFFFF;
+}
+
+
+/* HEADER */
+header {
+    margin: 5px;
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo {
+    text-align: center; 
+    height: auto;
+    max-width: 15%;
+}
+
+.logo img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+}
+
+/* CARTAS DE DESCRIPCION */
+.campeon-card, .objeto-card{
+    text-align: center;
+}
+
+
+.campeon-card *, .objeto-card *{
+    padding: 0.8rem;
+}
+
+
+.campeon-card h1, .campeon-card h2, .objeto-card h1{
+    font-size: 3rem;
+}
+
+.campeon-card p, .objeto-card p{
+    font-size: 1.2rem;
+    word-spacing: 3px;
+}
+
+
+
+.campeon-card button, .objeto-card button{
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+/* FOOTER */
+footer h2{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+
+
+.oficial-sites, .other-universe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.oficial-sites img, .other-universe img{
+    max-width: 100%; 
+    height: auto; 
+    padding-bottom: 20px;
+    padding: 1rem;
+}
+
+.other-universe img{
+    max-width: 100%; 
+    height: auto; 
+    padding-bottom: 20px;
+    padding: 1rem;
+}
+
+footer section:last-child{
+    text-align: center;
+    padding: 1.1rem;
+}
